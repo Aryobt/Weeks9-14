@@ -1,0 +1,1306 @@
+fileFormatVersion: 2
+guid: ad6fd12e9562c1146b5c4d517cc38606
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: -27.365076, y: 6.627262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0505730b90f15ce4f966dc39ff2bf7ae
+      internalID: -1230374803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 250
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84fbaa82391d04ba79e0b4ca3c98b7
+      internalID: 908950159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 250
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49661fe13bb4fa146a5e0ed07a881aa7
+      internalID: -1043071186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 250
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffa9551d6115f042a078838cc39c014
+      internalID: -77752941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 250
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2deb2e8215311c47a5a4af00228b95c
+      internalID: -339401736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 250
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a126b0b02f4f428fcbb3ee1d0c81f
+      internalID: -204168775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 250
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2641ab901aa636041aec1cfb06628714
+      internalID: -1054671674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 250
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc96c7e0eeae4ba4bb3a77c83f91b5f1
+      internalID: -1857725554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 250
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168044ddb5a1f934c8031910237e2388
+      internalID: 2136760248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a4030e8ff44441b75d4e417c31368
+      internalID: -1658038443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1db6d7b81978c34b9a654e8b0b199f2
+      internalID: 1082105355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041deced9c934e48bd25ec081904c9a
+      internalID: 1144368090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa674c37c8c992499d099cb99652501
+      internalID: 1188372999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187f1bafa062716478571311cc934fad
+      internalID: 1334836576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8979187db44064db435f0d3e84550f
+      internalID: 1288905841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1a4406f87968e46a4a92b6953a9c7e
+      internalID: -943042519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 200
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83367ab8b239519489126a60b7a1bb5f
+      internalID: 1427957752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 200
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c39f7d9c7b12b48b0c68d560c2a6f3
+      internalID: 867969193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5332accf73bdd74b97c9b390840fdfb
+      internalID: 759255615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 150
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40112b1a77f5ddf45a20a0483548f1e1
+      internalID: -1048041719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 150
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b62d5aac63fe5948a391210bfae630f
+      internalID: -548981594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 150
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82374873d84283348b5f73abd87c5577
+      internalID: -160698456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 150
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f6fe6107ebc34fbd8b3a63c94c0e9
+      internalID: 467449773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 150
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b885bbe00d7bb443b1ecf084b3bb631
+      internalID: 652933854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 150
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a674955fefcbd4389caf6d2556b1e2
+      internalID: -868146695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 150
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40649a5d51ad5214092f9b01379d6a51
+      internalID: 1151212906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 151
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014b5a4c194486a4480a575cc4b157cd
+      internalID: 1899857529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6e4214cd8763f49a42ca0a63abfe67
+      internalID: 957823917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 100
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794887284d184b74599f34110778a26a
+      internalID: 1516280030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 100
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06ec870061067a45a52fd281c6951e9
+      internalID: -2079405550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a81592d5b561144da30afb724e5794e
+      internalID: 778234717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 100
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093a4ad26d97b2149bcb1573cfc8e4c8
+      internalID: 111587959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 100
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b09b928b74bdf47ae2f3e746969691
+      internalID: 1661279548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 100
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc23de4cde96a34cbadc6030c4748ed
+      internalID: -1785127337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 100
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b70e30385459b4cbc3046d712dab95
+      internalID: -432976323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 102
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f15b3ecadb07741965098424eb5fcf
+      internalID: 942373899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3ee64cdae83bf40bbf61d98b474e9e
+      internalID: -1333716085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610e0d8ea900bc46b0f72e56ff0c976
+      internalID: -289665976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb20c2dd90b9c14c91a33773144300f
+      internalID: 1015946389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e501ee03fa2c83498f40c686cb1242f
+      internalID: 1460881405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c37f6208a04864fa6910122e756e3a
+      internalID: 1937199688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a818bb485002d842928f9fff33d8a9f
+      internalID: -1908284157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1b54fceb6a1694dbece4d2ce6d5222
+      internalID: -2077456019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9807d182758238a4594f16c8bbd8b1aa
+      internalID: -1994198696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 50
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48be66a7389164e8c1a4133ec0b07b
+      internalID: -1991353757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d194b61e8aad5dd449135541c9377127
+      internalID: 1834091881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa6a7c1b5b1d6e48894fee04ccd2841
+      internalID: -1115163761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304b19c98b1e40d43ad719f4092b6d5e
+      internalID: 364673632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c7ed2f8a8ee9c46b1e11709209f403
+      internalID: -180333762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab345860412851e4284c821c0d327ef5
+      internalID: -161953172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac75d4784e5ace41889f3c0347ffd13
+      internalID: 205807556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1698214f3405f244c943db0db2242d06
+      internalID: 1555177833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8216b73a82d67d458e7aac11cfb62ff
+      internalID: 1894441777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_0: -1230374803
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_1: 908950159
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_10: 1082105355
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_11: 1144368090
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_12: 1188372999
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_13: 1334836576
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_14: 1288905841
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_15: -943042519
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_16: 1427957752
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_17: 867969193
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_18: 759255615
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_19: -1048041719
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_2: -1043071186
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_20: -548981594
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_21: -160698456
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_22: 467449773
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_23: 652933854
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_24: -868146695
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_25: 1151212906
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_26: 1899857529
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_27: 957823917
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_28: 1516280030
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_29: -2079405550
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_3: -77752941
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_30: 778234717
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_31: 111587959
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_32: 1661279548
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_33: -1785127337
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_34: -432976323
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_35: 942373899
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_36: -1333716085
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_37: -289665976
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_38: 1015946389
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_39: 1460881405
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_4: -339401736
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_40: 1937199688
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_41: -1908284157
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_42: -2077456019
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_43: -1994198696
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_44: -1991353757
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_45: 1834091881
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_46: -1115163761
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_47: 364673632
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_48: -180333762
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_49: -161953172
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_5: -204168775
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_50: 205807556
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_51: 1555177833
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_52: 1894441777
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_6: -1054671674
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_7: -1857725554
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_8: 2136760248
+      sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_9: -1658038443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
