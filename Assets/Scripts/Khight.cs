@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class Khight : MonoBehaviour
     public AudioClip AtkSound;
     public float speed = 2;
     public bool canRun = true;
+
+    public CinemachineImpulseSource impulseSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,8 @@ public class Khight : MonoBehaviour
 
         sr.flipX = (direction < 0);
         animator.SetFloat("New Float", Mathf.Abs(direction));
+
+        
         
         if(Input.GetKeyDown (0))
         {
@@ -40,11 +45,13 @@ public class Khight : MonoBehaviour
             canRun = false;
             AttacksoundM.clip = AtkSound;
             AttacksoundM.Play();
+            impulseSource.GenerateImpulse();
         }
 
         if (canRun == true)
         {
             transform.position += transform.right * direction * speed * Time.deltaTime;
+            
         }
 
     }
