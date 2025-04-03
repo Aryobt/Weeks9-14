@@ -210,13 +210,13 @@ TextureImporter:
       name: sprite_wars___commando_temp_by_theen4cer_d1blivg-fullview-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 148
+        x: 146
         y: 250
         width: 44
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -237,7 +237,7 @@ TextureImporter:
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 7, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
