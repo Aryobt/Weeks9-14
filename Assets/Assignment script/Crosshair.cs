@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterMove : MonoBehaviour
+public class Crosshair : MonoBehaviour
 {
-    public float MonsterSpeed = 0.05f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +13,7 @@ public class MonsterMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 pos = transform.position;
-        pos.x -= MonsterSpeed;
-        transform.position = pos;
-
+        Vector2 mouse = Camera.main.ScreenToWorldPoint( Input.mousePosition );
+        transform.position = mouse;
     }
 }
