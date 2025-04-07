@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bulletspawn : MonoBehaviour
 {
+    public Vector3 mousePos;
+     
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,12 @@ public class Bulletspawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0;
+            transform.position = mousePos;
+        }
     }
 }
