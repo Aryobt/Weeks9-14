@@ -14,6 +14,8 @@ public class Bulletspawn : MonoBehaviour
 
     public Vector3 mousePos;
 
+   
+
   
      
     // Start is called before the first frame update
@@ -29,7 +31,8 @@ public class Bulletspawn : MonoBehaviour
         {
            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
            mousePos.z = 0;
-            transform.position = mousePos;
+           transform.position = mousePos;
+           
 
             //transform.position = Vector2.Lerp(start, end, bullet.Evaluate(t));
         }
