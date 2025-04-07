@@ -15,10 +15,6 @@ public class MonsterSpwaner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))//if the mouse button is down it would spawn muptiple copies of that game object that is being called
-        {
-            Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Instantiate(prefab, mouse, Quaternion.identity);
-        }
+        
     }
 }
