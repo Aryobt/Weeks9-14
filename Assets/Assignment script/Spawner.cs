@@ -18,7 +18,9 @@ public class Spawner : MonoBehaviour
         if (Input.GetMouseButtonDown(0))//if the mouse button is down it would spawn muptiple copies of that game object that is being called
         {
             Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Instantiate(prefab, mouse, Quaternion.identity);
+            GameObject newBullet = Instantiate(prefab, mouse, Quaternion.identity);
+           // Instantiate(prefab, mouse, Quaternion.identity);
+           Destroy(newBullet, 2 );//Destroys the bullet clones after 2 seconds
         }
     }
 }
