@@ -13,7 +13,7 @@ public class Crosshair : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 mouse = Camera.main.ScreenToWorldPoint( Input.mousePosition );
-        transform.position = mouse;
+        Vector2 mouse = Camera.main.ScreenToWorldPoint( Input.mousePosition );// Both the X and Y of the crosshair would be updated to the X and Y of the mouse
+        transform.position = mouse;// make the position equal to the mouse position
     }
 }
