@@ -7,7 +7,8 @@ using UnityEngine;
 public class Bulletspawn : MonoBehaviour
 {
   
-   public float BulletSpeed;
+   public float BulletSpeed;//calling a public veriable named BulletSpeed
+   /// </summary>
 
 
 
@@ -21,7 +22,7 @@ public class Bulletspawn : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update()//Updating the position of the bullet in each frame
     {
         Vector3 pos = transform.position;
         pos.x += BulletSpeed * Time.deltaTime;
