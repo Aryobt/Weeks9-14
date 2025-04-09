@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-
+//This code contains the details for the bulletr prefab 
 public class Bulletspawn : MonoBehaviour
 {
   

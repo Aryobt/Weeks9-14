@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//This code is used to make the bullet spawner to make bullets appear on the screen
 
 public class Spawner : MonoBehaviour
 {
@@ -19,7 +20,9 @@ public class Spawner : MonoBehaviour
         {
             Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             GameObject newBullet = Instantiate(prefab, mouse, Quaternion.identity);
-           // Instantiate(prefab, mouse, Quaternion.identity);
+
+           // Instantiate(prefab, mouse, Quaternion.identity);//please ignore this I just wanted to test something out!!
+
            Destroy(newBullet, 2 );//Destroys the bullet clones after 2 seconds
         }
     }
