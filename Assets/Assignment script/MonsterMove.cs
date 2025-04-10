@@ -19,7 +19,7 @@ public class MonsterMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       scoreboard = GameObject.Find("Score").GetComponent<Scoreboard>();//search the Score code from the Score board script and also getting its component
+       scoreboard = GameObject.Find("Score").GetComponent<Scoreboard>();//search the Score code from the Score board script and also getting its component used this to learn .Find (https://www.youtube.com/watch?v=h5znpUSx78I&t=111s).
     }
 
     // Update is called once per frame
