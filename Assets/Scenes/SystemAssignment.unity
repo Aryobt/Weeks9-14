@@ -197,54 +197,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70473661}
   m_CullTransparentMesh: 1
---- !u!1 &73527342
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 73527344}
-  - component: {fileID: 73527345}
-  m_Layer: 0
-  m_Name: Monster spawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &73527344
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73527342}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.75, y: -3.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &73527345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 73527342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81045931c6cc03040a36e4ca506356c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MonsterSpawner: {fileID: 1398129825}
-  Monster: {fileID: 0}
-  newMonster: {fileID: 0}
-  spawnTime: 3
 --- !u!1 &100649007
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398129827}
   - component: {fileID: 1398129826}
+  - component: {fileID: 1398129828}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -798,6 +751,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1398129828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398129825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81045931c6cc03040a36e4ca506356c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterSpawner: {fileID: 1398129825}
+  Monster: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
+  newMonster: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
+  spawnTime: 3
 --- !u!1 &1453129484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1265,6 @@ SceneRoots:
   - {fileID: 1514669465}
   - {fileID: 315357394}
   - {fileID: 1094391244}
-  - {fileID: 73527344}
   - {fileID: 2047787067}
   - {fileID: 1453129487}
   - {fileID: 1398129827}
