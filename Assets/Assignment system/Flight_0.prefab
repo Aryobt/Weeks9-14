@@ -119,5 +119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9993b80c0170eb04f8f4225dd0e67257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDead: 0
   sr: {fileID: 5031650618666142127}
   MonsterSpeed: 0.02
+  OnDie:
+    m_PersistentCalls:
+      m_Calls: []
