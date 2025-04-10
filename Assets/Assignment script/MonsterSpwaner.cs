@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class MonsterSpwaner : MonoBehaviour
 {
-    SpriteRenderer sr;
+    SpriteRenderer sr;//calling a sprite renderer as sr
 
     //veriables to refrence the monster spawner game object
     public GameObject MonsterSpawner;//calling a game object monsterspawner
@@ -32,10 +32,10 @@ public class MonsterSpwaner : MonoBehaviour
     {
        SpawnerCoroutine = StartCoroutine(MonsterRoutine());//Begin a coroutine at the start of the code
 
-        sr = GetComponent<SpriteRenderer>();
+        sr = GetComponent<SpriteRenderer>();//sr get the its components from the sprite renderer
 
         startButton.onClick.AddListener(StartSpawning);//a listener that when clicked begins spawning
-        stopButton.onClick.AddListener(StopSpawning);
+        stopButton.onClick.AddListener(StopSpawning);//a listener that when clicked stops the coroutine spawing 
     }
 
     IEnumerator MonsterRoutine()
@@ -60,7 +60,7 @@ public class MonsterSpwaner : MonoBehaviour
 
     }
 
-    public void StartSpawning()
+    public void StartSpawning()//a public void to play the coroutine
     {
         if (SpawnerCoroutine == null)
         {
@@ -68,7 +68,7 @@ public class MonsterSpwaner : MonoBehaviour
         }
     }
 
-    public void StopSpawning()
+    public void StopSpawning()//a public void to stop the coroutine
     {
         if(SpawnerCoroutine != null)
         {
