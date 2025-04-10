@@ -9,7 +9,8 @@ using UnityEngine.SocialPlatforms;
 public class MonsterSpwaner : MonoBehaviour
 {
     //veriables to refrence the monster spawner game object
-    public GameObject MonsterSpawner;
+    public GameObject MonsterSpawner;//calling a game object monsterspawner
+
     public GameObject Monster;//the object that is being spawned by the game object
     //public GameObject newMonster;
 
