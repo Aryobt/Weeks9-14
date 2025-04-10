@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 1398129826}
   - component: {fileID: 1398129828}
   m_Layer: 0
-  m_Name: Square
+  m_Name: enemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -695,7 +695,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad976ec70e28f17499106fe8bcb03cd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -715,8 +715,8 @@ Transform:
   m_GameObject: {fileID: 1398129825}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.78, y: -2.94, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 27.05, y: -2.94, z: 0}
+  m_LocalScale: {x: 0.337425, y: 0.90682966, z: 0.2045}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -736,6 +736,8 @@ MonoBehaviour:
   MonsterSpawner: {fileID: 1398129825}
   Monster: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
   spawnTime: 4
+  startButton: {fileID: 1111080185}
+  stopButton: {fileID: 2034851360}
 --- !u!1 &1453129484
 GameObject:
   m_ObjectHideFlags: 0

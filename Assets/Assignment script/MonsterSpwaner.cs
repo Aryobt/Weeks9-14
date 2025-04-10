@@ -5,9 +5,12 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
 using UnityEngine.SocialPlatforms;
+using UnityEngine.UI;
 
 public class MonsterSpwaner : MonoBehaviour
 {
+    SpriteRenderer sr;
+
     //veriables to refrence the monster spawner game object
     public GameObject MonsterSpawner;//calling a game object monsterspawner
 
@@ -15,6 +18,10 @@ public class MonsterSpwaner : MonoBehaviour
     //public GameObject newMonster;
 
     public float spawnTime = 2f;//The veriable that handels the spawn time of each monster
+
+    public Button startButton;//refrencing the start button
+
+    public Button stopButton;//refrencing the stop button
 
     Coroutine SpawnerCoroutine;// setting a coroutine to spawn monsters
     //IEnumerator Spawn;
@@ -24,6 +31,11 @@ public class MonsterSpwaner : MonoBehaviour
     void Start()
     {
        SpawnerCoroutine = StartCoroutine(MonsterRoutine());//Begin a coroutine at the start of the code
+
+        sr = GetComponent<SpriteRenderer>();
+
+        startButton.onClick.AddListener(StartSpawning);//a listener that when clicked begins spawning
+        stopButton.onClick.AddListener(StopSpawning);
     }
 
     IEnumerator MonsterRoutine()
@@ -44,5 +56,24 @@ public class MonsterSpwaner : MonoBehaviour
         GameObject newEnemy = Instantiate(Monster, posToSpawn, Quaternion.Euler(rotationToSpawn));//rotate the eular angle of the spawned gamed object
         newEnemy.transform.parent = MonsterSpawner.transform;//newEnemy becomes a child of MonsterSpawner and if the MonsterSpawner moves, rotates, or scales, newEnemy would do the samething
        // Debug.Log("Spawnenemy");//used to help me see if the code is working or not
+
+
+    }
+
+    public void StartSpawning()
+    {
+        if (SpawnerCoroutine == null)
+        {
+            SpawnerCoroutine = StartCoroutine(MonsterRoutine());
+        }
+    }
+
+    public void StopSpawning()
+    {
+        if(SpawnerCoroutine != null)
+        {
+            StopCoroutine(SpawnerCoroutine);
+            SpawnerCoroutine = null;
+        }
     }
 }
