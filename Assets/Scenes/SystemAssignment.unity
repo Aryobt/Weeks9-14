@@ -993,7 +993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MonsterSpawner: {fileID: 1398129825}
   Monster: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
-  BigMonster: {fileID: 7303430041946652916, guid: 5dce428bbfe1c0f41818d7bc39cef7a7, type: 3}
+  BigMonster: {fileID: 1398129825}
   spawnTime: 4
   startButton: {fileID: 1111080185}
   stopButton: {fileID: 2034851360}
