@@ -665,7 +665,7 @@ GameObject:
   - component: {fileID: 938552948}
   - component: {fileID: 938552947}
   m_Layer: 5
-  m_Name: Button
+  m_Name: GrowButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -904,6 +904,7 @@ GameObject:
   - component: {fileID: 1398129827}
   - component: {fileID: 1398129826}
   - component: {fileID: 1398129828}
+  - component: {fileID: 1398129829}
   m_Layer: 0
   m_Name: enemySpawner
   m_TagString: Untagged
@@ -992,9 +993,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MonsterSpawner: {fileID: 1398129825}
   Monster: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
+  BigMonster: {fileID: 7303430041946652916, guid: 5dce428bbfe1c0f41818d7bc39cef7a7, type: 3}
   spawnTime: 4
   startButton: {fileID: 1111080185}
   stopButton: {fileID: 2034851360}
+--- !u!114 &1398129829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398129825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2516ff54f59ba54fbfea70356308172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterGrowth: {fileID: 1505364974722268309, guid: 221e7ee8853814f44ab6c65b3721199c, type: 3}
+  growButton: {fileID: 938552947}
 --- !u!1 &1453129484
 GameObject:
   m_ObjectHideFlags: 0
